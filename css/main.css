@@ -1,11 +1,8 @@
-body {
-    margin: 60px auto;
-    width: 70%;
-}
-
-.profile img{
-    border-radius: 50%;
-    width: 15rem;
+body{
+    font-family: Proxima Nova, Helvetica Neue, Helvetica, Arial sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 1px;
 }
 
 nav ul, footer ul {
@@ -17,13 +14,6 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
 }
 h1 {
     font-size: 3em;
@@ -49,3 +39,42 @@ ul.posts li {
 }
 
 
+.profile img{
+    width: 12rem;
+}
+
+p a, li a{
+    color: #7c7975;
+    text-decoration: none;
+    position: relative;
+    white-space: nowrap;
+}
+p a:before, li a:before {
+    content: '';
+    height: 10px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;      
+    background-color: rgba(75, 230, 165, 0.295);
+    transition: 0.2s;
+    transition-property: bottom;
+}
+
+.container
+{
+    margin: 5rem auto;
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 680px){
+    
+    .profile{
+        margin: 25px;
+        width: 85%;
+        max-width: 750px;
+        font-size: 24px;
+        line-height: 38px;
+    }
+}
