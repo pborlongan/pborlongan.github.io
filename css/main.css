@@ -29,8 +29,8 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
@@ -56,7 +56,7 @@ p a:before, li a:before {
     position: absolute;
     bottom: -2px;
     left: 0;
-    right: 0;      
+    right: 0;
     background-color: rgba(75, 230, 165, 0.295);
     transition: 0.2s;
     transition-property: bottom;
@@ -70,7 +70,6 @@ p a:before, li a:before {
 
 
 @media only screen and (max-width: 700px){
-    
     .container{
         margin: 25px;
         width: 85%;
