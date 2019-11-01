@@ -15,10 +15,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 
 ul.posts {
     margin: 20px auto 40px;
@@ -29,6 +25,11 @@ ul.posts li {
     list-style: none;
 } */
 
+
+h1 {
+    font-size: 1.5rem;
+    font-family: Proxima Nova, Helvetica Neue, Helvetica, Arial sans-serif;
+}
 
 .profile img{
     border-radius: 50%;
