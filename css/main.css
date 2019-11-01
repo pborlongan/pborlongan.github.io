@@ -4,7 +4,7 @@ body{
     line-height: 2rem;
     letter-spacing: 1px;
 }
-
+/* 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -27,7 +27,7 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
+} */
 
 
 .profile img{
