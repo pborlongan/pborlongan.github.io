@@ -1,48 +1,30 @@
-body{
+body {
     font-family: Proxima Nova, Helvetica Neue, Helvetica, Arial sans-serif;
     font-size: 1.5rem;
     line-height: 2rem;
     letter-spacing: 1px;
 }
-/* 
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-} */
-
 
 h1 {
     font-size: 2rem;
     font-family: Proxima Nova, Helvetica Neue, Helvetica, Arial sans-serif;
 }
 
-.profile img{
+.profile img {
     border-radius: 50%;
     width: 12rem;
 }
 
-p a, li a{
+p a,
+li a {
     color: #7c7975;
     text-decoration: none;
     position: relative;
     white-space: nowrap;
 }
-p a:before, li a:before {
+
+p a:before,
+li a:before {
     content: '';
     height: 10px;
     position: absolute;
@@ -54,15 +36,13 @@ p a:before, li a:before {
     transition-property: bottom;
 }
 
-.container
-{
+.container {
     margin: 5rem auto;
     width: 60%;
 }
 
-
-@media only screen and (max-width: 680px){
-    .container{
+@media only screen and (max-width: 680px) {
+    .container {
         margin: 25px;
         width: 85%;
         max-width: 750px;
@@ -71,4 +51,23 @@ p a:before, li a:before {
     }
 }
 
+.nav {
+    text-align: center;
+}
 
+.nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    height: 30px;
+    font-family: Arial;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li a {
+    display: block;
+    padding: 0 20px;
+}

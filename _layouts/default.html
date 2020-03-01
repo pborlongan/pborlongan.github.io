@@ -1,18 +1,33 @@
 <!DOCTYPE html>
 <html>
-	<head>
-    	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<title>{{ page.title }}</title>
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<link rel="icon" type="image/png" href="../img/originals/favicon-32x32.png" sizes="32x32" />
-	</head>
-	<body>
-		<div class="container">
-    		{{ content }}
-		</div><!-- /.container -->
 
-		<p>/website currently under construction/</p>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="icon" type="image/png" href="../img/originals/favicon-32x32.png" sizes="32x32" />
+</head>
+
+<body>
+    <div class="nav">
+        <h2>Patricia Borlongan</h2>
+        <p>frontend development, web design</p>
+        <ul>
+            <li><a href="/">home</a></li>
+            <li><a href="/about-me/">more about</a></li>
+            <li><a href="/blog">blog</a></li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        {{ content }}
+        <p>/website currently under construction/</p>
+    </div>
+    <!-- /.container -->
+
+</body>
+
 </html>
