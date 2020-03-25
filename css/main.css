@@ -62,3 +62,7 @@ hr {
     display: block;
     padding: 0 20px;
 }
+
+.card{
+    margin-top: 2em;
+}
