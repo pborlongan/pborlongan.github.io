@@ -1,30 +1,11 @@
-body {
-    font-family: Proxima Nova, Helvetica Neue, Helvetica, Arial sans-serif;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    letter-spacing: 1px;
-}
-
-h1 {
-    font-size: 2rem;
-    font-family: Proxima Nova, Helvetica Neue, Helvetica, Arial sans-serif;
-}
-
-.profile img {
-    border-radius: 50%;
-    width: 12rem;
-}
-
-p a,
-li a {
+a {
     color: #7c7975;
     text-decoration: none;
     position: relative;
     white-space: nowrap;
 }
 
-p a:before,
-li a:before {
+a:before {
     content: '';
     height: 10px;
     position: absolute;
@@ -37,11 +18,15 @@ li a:before {
 }
 
 .container {
-    margin: 5rem auto;
+    margin: 1.5em auto;
     width: 45%;
 }
 
-@media only screen and (max-width: 680px) {
+hr {
+    width: 45%;
+}
+
+@media only screen and (max-width: 100px) {
     .container {
         margin: 25px;
         width: 85%;
@@ -51,11 +36,17 @@ li a:before {
     }
 }
 
-.nav {
+.my-nav {
+    margin: 5rem auto 0;
+    width: 45%;
     text-align: center;
 }
 
-.nav ul {
+.my-nav a {
+    text-decoration: none;
+}
+
+.my-nav ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
@@ -63,11 +54,11 @@ li a:before {
     font-family: Arial;
 }
 
-.nav li {
+.my-nav li {
     display: inline-block;
 }
 
-.nav li a {
+.my-nav li a {
     display: block;
     padding: 0 20px;
 }
