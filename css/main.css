@@ -1,68 +1,66 @@
-a {
-    color: #7c7975;
+body{
+    background-color: #fafffd;
+}
+
+
+main a {
+    color: #23395b;
     text-decoration: none;
     position: relative;
     white-space: nowrap;
+    font-weight: 600;
 }
 
-a:before {
-    content: '';
-    height: 10px;
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
-    background-color: rgba(75, 230, 165, 0.295);
-    transition: 0.2s;
-    transition-property: bottom;
-}
-
-.container {
-    margin: 1.5em auto;
-    width: 45%;
-}
-
-hr {
-    width: 45%;
-}
-
-@media only screen and (max-width: 680px) {
-    .container {
-        margin: 25px;
-        width: 85%;
-        max-width: 750px;
-        font-size: 24px;
-        line-height: 38px;
-    }
-}
-
-.my-nav {
-    margin: 5rem auto 0;
-    width: 45%;
-    text-align: center;
-}
-
-.my-nav a {
+main a:hover{
     text-decoration: none;
 }
 
-.my-nav ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    height: 30px;
-    font-family: Arial;
+main{
+    margin-top: 2em;
 }
 
-.my-nav li {
-    display: inline-block;
+.tag{
+    background-color: #dfdfdf;
+    padding: 4px;
+    border-radius: 2%;
+    font-size: 0.85em;
+    color: #616161;
 }
 
-.my-nav li a {
-    display: block;
-    padding: 0 20px;
+footer{
+    background-color: #fe938c;
+}
+
+.intro{
+    padding: 0 auto;
+}
+.intro p{
+    font-size: 1.25em;
 }
 
 .card{
-    margin-top: 2em;
+    margin-top: 1.5em;
+}
+
+.intro hr{
+    margin-top: 1.5em;
+}
+
+.intro img{
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2em;
+}
+
+main a:before {
+    content: '';
+    height: 5px;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    background-color: #ff9fb2;
+    transition: 0.2s;
+    transition-property: bottom;
 }
